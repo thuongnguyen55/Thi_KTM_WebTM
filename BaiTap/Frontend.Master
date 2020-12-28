@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Frontend.master.cs" Inherits="Baithiketthucmon.BaiTap.Frontend" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <div id="pageview">
+            <header></header>
+            <ul class="danhmuc" >
+                <li > <a href="trangchu.aspx"> Trang chủ</a> </li>
+                <li > <a href="TinTuc.aspx"> Tin tức</a> </li>
+                <li > <a href="Tacgia.aspx"> Tác giả</a> </li>
+                <li > <a href="ChuDe.aspx"> Chủ đề</a> </li>
+                </ul >
+            <section style="width: 800px; float: left;">
+            <asp:ContentPlaceHolder ID="cpMainContent" runat="server"></asp:ContentPlaceHolder>
+            </section>
+            <footer style="color: black">My Website, Copyright &copy; 2020</footer>
+        </div>
+    </form>
+</body>
+</html>
