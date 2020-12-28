@@ -2,6 +2,7 @@
 <p>Họ tên: Nguyễn Trần Trọng Thưởng</p>
 <p>Lớp: CTT12CD3A</p>
 <p>Thi môn: Xây dụng website thương mại</p>
+<p>Ngày: 28/12/2020</p>
 <p>Nội dung: </p>
 <p>Giao diện chính</p>
 <img src="https://github.com/thuongnguyen55/AnhKTM/blob/main/Trangchu.png"></br></br>
